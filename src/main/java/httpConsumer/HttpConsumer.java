@@ -18,9 +18,7 @@ public class HttpConsumer implements Serializable {
 
 
     private final String DEVELOPMENT = "http://localhost:8080";
-    private final String PRODUCTION = "http://www.taquioninovacao.com.br/lifesensing";
-    private final String APTAMEROS = "http://www.taquioninovacao.com.br/aptameros";
-    private String urlPath = "http://";
+    private String urlPath = "";
     private final String GET = "GET";
     private final String PUT = "PUT";
     private final String POST = "POST";
